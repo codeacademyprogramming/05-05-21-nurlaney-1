@@ -8,6 +8,17 @@
 @import './libs/sections/filter';
 @import './libs/sections/tags';
 @import './libs/sections/products';
+@import './libs/sections/features';
 main {
     margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    [class*="col-"],
+    .col {
+        width: 100% !important;
+    }
+    .mediaQ {
+        display: none;
+    }
 }

@@ -2,5 +2,11 @@
     .filter-wrap {
         display: flex;
         justify-content: space-between;
+        select {
+            padding: 6px;
+        }
+        button {
+            padding: 6px;
+        }
     }
 }

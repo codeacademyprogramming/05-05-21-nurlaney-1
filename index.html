@@ -53,7 +53,7 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-3 mediaQ">
                     <section id="departments">
                         <button>Departments</button>
                         <div class="depart-drop">
@@ -163,24 +163,26 @@
                 </div>
                 <div class="col-9">
                     <section id="filter">
-                        <div class="filter-wrap">
-                            <div>
-                                <select name="" id="">
+                        <div class="col-12">
+                            <div class="filter-wrap">
+                                <div>
+                                    <select name="" id="">
                                     <option value="">Useles first</option>
                                 </select>
-                                <select name="" id="">
+                                    <select name="" id="">
                                     <option value="">Condition</option>
                                 </select>
-                                <select name="" id="">
+                                    <select name="" id="">
                                     <option value="">Delivery option</option>
                                 </select>
-                            </div>
-                            <div>
-                                <button>Show All</button>
-                                <button>Auction</button>
-                                <button>Buy Now</button>
-                                <button>Show All</button>
-                                <button>Auction</button>
+                                </div>
+                                <div>
+                                    <button>Show All</button>
+                                    <button class="active">Auction</button>
+                                    <button>Buy Now</button>
+                                    <button><i class="fas fa-th-large"></i></button>
+                                    <button class="active"><i class="fas fa-border-all"></i></button>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -198,19 +200,21 @@
                         </div>
                     </section>
                     <section id="products">
-                        <div class="row">
+                        <div class="row box-shadow" style="padding: 0 58px;">
                             <div class="col-3">
                                 <div class="product-box">
                                     <div class="img-box">
                                         <img src="./assets/images/typewriter.png" alt="">
                                     </div>
                                     <div class="box-body">
-                                        <span>Vintage Typewriter to post awesome stories about UI design and webdev.</span>
+                                        <span class="title">Vintage Typewriter to post awesome stories about UI design and webdev.</span>
                                         <p><b>$49.50</b></p>
-                                        <span>Eligible for Shipping To Mars or somewhere else</span>
+                                        <span class="desc">Eligible for Shipping To Mars or somewhere else</span>
                                     </div>
                                     <div class="box-footer">
-                                        <div class="stars">****</div>
+                                        <div class="stars">
+                                            <img src="./assets/images/4.5.png" alt="">
+                                        </div>
                                         <div class="button-w">
                                             <button>Watch</button>
                                         </div>
@@ -223,12 +227,14 @@
                                         <img src="./assets/images/typewriter.png" alt="">
                                     </div>
                                     <div class="box-body">
-                                        <span>Vintage Typewriter to post awesome stories about UI design and webdev.</span>
+                                        <span class="title">Vintage Typewriter to post awesome stories about UI design and webdev.</span>
                                         <p><b>$49.50</b></p>
-                                        <span>Eligible for Shipping To Mars or somewhere else</span>
+                                        <span class="desc">Eligible for Shipping To Mars or somewhere else</span>
                                     </div>
                                     <div class="box-footer">
-                                        <div class="stars">****</div>
+                                        <div class="stars">
+                                            <img src="./assets/images/4.5.png" alt="">
+                                        </div>
                                         <div class="button-w">
                                             <button>Watch</button>
                                         </div>
@@ -241,12 +247,14 @@
                                         <img src="./assets/images/typewriter.png" alt="">
                                     </div>
                                     <div class="box-body">
-                                        <span>Vintage Typewriter to post awesome stories about UI design and webdev.</span>
+                                        <span class="title">Vintage Typewriter to post awesome stories about UI design and webdev.</span>
                                         <p><b>$49.50</b></p>
-                                        <span>Eligible for Shipping To Mars or somewhere else</span>
+                                        <span class="desc">Eligible for Shipping To Mars or somewhere else</span>
                                     </div>
                                     <div class="box-footer">
-                                        <div class="stars">****</div>
+                                        <div class="stars">
+                                            <img src="./assets/images/4.5.png" alt="">
+                                        </div>
                                         <div class="button-w">
                                             <button>Watch</button>
                                         </div>
@@ -259,12 +267,14 @@
                                         <img src="./assets/images/typewriter.png" alt="">
                                     </div>
                                     <div class="box-body">
-                                        <span>Vintage Typewriter to post awesome stories about UI design and webdev.</span>
+                                        <span class="title">Vintage Typewriter to post awesome stories about UI design and webdev.</span>
                                         <p><b>$49.50</b></p>
-                                        <span>Eligible for Shipping To Mars or somewhere else</span>
+                                        <span class="desc">Eligible for Shipping To Mars or somewhere else</span>
                                     </div>
                                     <div class="box-footer">
-                                        <div class="stars">****</div>
+                                        <div class="stars">
+                                            <img src="./assets/images/4.5.png" alt="">
+                                        </div>
                                         <div class="button-w">
                                             <button>Watch</button>
                                         </div>
@@ -277,12 +287,14 @@
                                         <img src="./assets/images/typewriter.png" alt="">
                                     </div>
                                     <div class="box-body">
-                                        <span>Vintage Typewriter to post awesome stories about UI design and webdev.</span>
+                                        <span class="title">Vintage Typewriter to post awesome stories about UI design and webdev.</span>
                                         <p><b>$49.50</b></p>
-                                        <span>Eligible for Shipping To Mars or somewhere else</span>
+                                        <span class="desc">Eligible for Shipping To Mars or somewhere else</span>
                                     </div>
                                     <div class="box-footer">
-                                        <div class="stars">****</div>
+                                        <div class="stars">
+                                            <img src="./assets/images/4.5.png" alt="">
+                                        </div>
                                         <div class="button-w">
                                             <button>Watch</button>
                                         </div>
@@ -295,12 +307,54 @@
                                         <img src="./assets/images/typewriter.png" alt="">
                                     </div>
                                     <div class="box-body">
-                                        <span>Vintage Typewriter to post awesome stories about UI design and webdev.</span>
+                                        <span class="title">Vintage Typewriter to post awesome stories about UI design and webdev.</span>
                                         <p><b>$49.50</b></p>
-                                        <span>Eligible for Shipping To Mars or somewhere else</span>
+                                        <span class="desc">Eligible for Shipping To Mars or somewhere else</span>
                                     </div>
                                     <div class="box-footer">
-                                        <div class="stars">****</div>
+                                        <div class="stars">
+                                            <img src="./assets/images/4.5.png" alt="">
+                                        </div>
+                                        <div class="button-w">
+                                            <button>Watch</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="product-box">
+                                    <div class="img-box">
+                                        <img src="./assets/images/typewriter.png" alt="">
+                                    </div>
+                                    <div class="box-body">
+                                        <span class="title">Vintage Typewriter to post awesome stories about UI design and webdev.</span>
+                                        <p><b>$49.50</b></p>
+                                        <span class="desc">Eligible for Shipping To Mars or somewhere else</span>
+                                    </div>
+                                    <div class="box-footer">
+                                        <div class="stars">
+                                            <img src="./assets/images/4.5.png" alt="">
+                                        </div>
+                                        <div class="button-w">
+                                            <button>Watch</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="product-box">
+                                    <div class="img-box">
+                                        <img src="./assets/images/typewriter.png" alt="">
+                                    </div>
+                                    <div class="box-body">
+                                        <span class="title">Vintage Typewriter to post awesome stories about UI design and webdev.</span>
+                                        <p><b>$49.50</b></p>
+                                        <span class="desc">Eligible for Shipping To Mars or somewhere else</span>
+                                    </div>
+                                    <div class="box-footer">
+                                        <div class="stars">
+                                            <img src="./assets/images/4.5.png" alt="">
+                                        </div>
                                         <div class="button-w">
                                             <button>Watch</button>
                                         </div>
@@ -313,23 +367,23 @@
                         <div class="row">
                             <div class="col-4">
                                 <div class="feature-box">
-                                    <h5>icon</h5>
+                                    <img src="./assets/images/lamp.png" alt="">
                                     <h4>Clear & USeful user flows</h4>
                                     <p>Lets boost your marketplace</p>
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="feature-box">
-                                    <h5>icon</h5>
-                                    <h4>Clear & USeful user flows</h4>
-                                    <p>Lets boost your marketplace</p>
+                                    <img src="./assets/images/magic.png" alt="">
+                                    <h4>Fine & Styled components</h4>
+                                    <p>Speed up with Setproduct templates</p>
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="feature-box">
-                                    <h5>icon</h5>
-                                    <h4>Clear & USeful user flows</h4>
-                                    <p>Lets boost your marketplace</p>
+                                    <img src="./assets/images/palette.png" alt="">
+                                    <h4>Customizable & Reusable</h4>
+                                    <p>Take our UX patterns and rebuild</p>
                                 </div>
                             </div>
                         </div>
