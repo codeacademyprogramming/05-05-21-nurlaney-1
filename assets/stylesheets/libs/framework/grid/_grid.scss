@@ -1,0 +1,29 @@
+@import '../_fm-variables';
+@import '../mixins';
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+%container-props{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+@for $i from 1 through $columns {
+    .col-#{$i}{
+        width: 100%/$columns * $i
+    }
+}
+
+@each $breakpoint in $breakpoints {
+    .container{
+        @extend %container-props;
+        @include braker($breakpoint){
+            width: map-get($breaklines , $breakpoint );
+        }
+    }
+}
+
