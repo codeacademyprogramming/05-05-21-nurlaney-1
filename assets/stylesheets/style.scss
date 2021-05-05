@@ -3,3 +3,11 @@
 @import './libs/const';
 // sections
 @import './libs/sections/header';
+@import './libs/sections/departments';
+@import './libs/sections/expanded';
+@import './libs/sections/filter';
+@import './libs/sections/tags';
+@import './libs/sections/products';
+main {
+    margin-top: 50px;
+}

@@ -1,0 +1,9 @@
+#products {
+    .product-box {
+        padding: 10px;
+        .box-footer {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
