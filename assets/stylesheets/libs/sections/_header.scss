@@ -1,0 +1,54 @@
+header {
+    img {
+        vertical-align: middle;
+    }
+    nav {
+        padding: 20px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        display: inline;
+        a {
+            font-family: Red Hat Display;
+            font-style: normal;
+            font-weight: 500;
+            align-items: center;
+            font-size: 25px;
+            color: #0C2146;
+            margin-left: 6px;
+        }
+    }
+    ul {
+        margin: 0;
+        display: inline;
+        li {
+            display: inline;
+            a {
+                font-family: Red Hat Display;
+                font-style: normal;
+                font-weight: 500;
+                align-items: center;
+                font-size: 14px;
+                color: #0C2146;
+                margin-right: 8px;
+                margin-left: 5px;
+            }
+        }
+    }
+    input {
+        background: #EDEDF0;
+        border-radius: 99px;
+        border: none;
+        padding: 10px;
+        width: 51%;
+    }
+    button {
+        color: $primary-color;
+        border: 1px solid #9DC2FF;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 5px 10px;
+    }
+}
